@@ -1,5 +1,5 @@
-def uppercase_string(s):
+def capitalize_words(s):
     """
-    Convert a string to uppercase.
+    Capitalize the first letter of each word in a string.
     """
-    return s.upper()
+    return ' '.join(word.capitalize() for word in s.split())
